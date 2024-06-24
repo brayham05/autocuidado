@@ -1,0 +1,61 @@
+body {
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: 200px;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #A93226;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+   
+}
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white ;
+    margin: 0 15px;
+    text-decoration: none;
+}
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #D5DBDB ;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.contenedor {
+    text-align: right;
+}
+.container {
+    overflow: hidden; /* Para contener los elementos flotantes */
+}
+.container img {
+    float: right;
+    margin-left: 20px; /* Espacio entre el texto y la imagen */
+    max-width: 40%; /* Ajusta el tamaño de la imagen según sea necesario */
+}
+.container p {
+    text-align: justify;
+}
+.contenedor h3 {
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+      }
